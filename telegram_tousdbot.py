@@ -68,12 +68,8 @@ def convert(bot, update, args):
 
 convert_handler = CommandHandler('convert', convert, pass_args=True)
 dispatcher.add_handler(convert_handler)
-"""
 
 
-
-
-"""
 def inline_convert(bot, update):
 	#query format should be e.g: 184 MYR
 	query = update.inline_query.query
